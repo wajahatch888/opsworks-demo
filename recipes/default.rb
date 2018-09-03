@@ -1,3 +1,4 @@
+#https://learn.chef.io/modules/learn-the-basics/ubuntu/bring-your-own-system/configure-a-package-and-service#/
 apt_update 'Update the apt cache daily' do
   frequency 86_400
   action :periodic
